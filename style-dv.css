@@ -1,0 +1,83 @@
+footer{
+  background: #121314;
+  padding: 8px 3%;
+  color: #4a4a4a;
+  overflow: hidden;
+}
+.ft-box{
+  width: 48%;
+  float: left;
+}
+.ccontent{
+}
+.ccontent .txt-footer{
+  display: block;
+  font-size: 133%;
+}
+footer h3{
+  color: #4a4a4a!important;
+}
+.cc2{
+  padding: 0 3%;
+}
+.cc2 input{
+  overflow: visible;
+  padding: 2% 12px;
+  font-size: 125%;
+  border: none;
+  border-radius: 3px;
+}
+.cc2 button{
+  width: 100px;
+  padding: 8px;
+  background: transparent;
+}
+.cc2 .form-group{
+  margin-top: 16px;
+}
+
+/* WARNING: RESPONSIVE */
+@media screen and (max-width: 659px)
+and (min-width: 0px){
+  .ft-box{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .cc2{
+    padding: 0;
+  }
+  .cc2 button{
+    display: block;
+    margin-top: 10px;
+  }
+  .cc2 input{
+    width: 95%;
+  }
+  .ft-box h3{
+    font-size: 26px;
+  }
+}
+
+.buy-btn{
+  font-style: normal!important;
+  background: black;
+  color: #fff;
+  font-size: 75%!important;
+  padding: 8px;
+}
+
+.payment{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 9999999;
+  height: 100%;
+  display: none;
+}
+.payment .fa-remove{
+  position: fixed;
+  right: 5px;
+  font-size: 150%;
+  top: 5px;
+}
